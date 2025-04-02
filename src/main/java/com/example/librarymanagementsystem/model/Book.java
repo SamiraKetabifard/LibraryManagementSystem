@@ -21,6 +21,15 @@ public class Book {
         this.borrowed = borrowed;
         this.borrowedBy = borrowedBy;
     }
+    public Book(Long id, String title, String author, boolean borrowed, User borrowedBy) {
+        this.id = id;
+        this.title = title;
+        this.author = author;
+        this.borrowed = borrowed;
+        this.borrowedBy = borrowedBy;
+    }
+
+
     public Long getId() {
         return id;
     }
